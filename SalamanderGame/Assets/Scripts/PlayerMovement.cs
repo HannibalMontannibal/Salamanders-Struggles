@@ -90,8 +90,11 @@ public class PlayerMovement : MonoBehaviour
         
         // Add force down to make the jump feel nicer 
         rb.AddForce(Vector2.up * -50f);
-        // if the ground transform hit the whatisground with groundradius
-        grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
+
+        
+
+            // if the ground transform hit the whatisground with groundradius
+            grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
 
         //tells the animator that player is grounded
         //anim.SetBool("Ground", grounded);
@@ -287,17 +290,20 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-      
+       
+
+
+
 
 
         //========================WallJump====================================
 
 
-        //if (collision.gameObject.tag == "WallRight" && (Input.GetKeyDown ("space"))) {
-        //	rb.AddForce (Vector3.up * bounceAmount);
-        //	rb.AddForce (Vector3.left * leftbounceAmount);
+            //if (collision.gameObject.tag == "WallRight" && (Input.GetKeyDown ("space"))) {
+            //	rb.AddForce (Vector3.up * bounceAmount);
+            //	rb.AddForce (Vector3.left * leftbounceAmount);
 
-        //}
+            //}
 
     }
 
