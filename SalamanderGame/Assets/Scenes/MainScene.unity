@@ -931,7 +931,7 @@ GameObject:
   - component: {fileID: 1102635447}
   - component: {fileID: 1102635446}
   - component: {fileID: 1102635445}
-  - component: {fileID: 1102635450}
+  - component: {fileID: 1102635451}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1009,7 +1009,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1102635450
+--- !u!114 &1102635451
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -1017,11 +1017,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1102635444}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b4c2652ef9995846a83db861092bd8c, type: 3}
+  m_Script: {fileID: 11500000, guid: e1b81eba1843f1d4295a97351fc39404, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   FollowSpeed: 1.5
   Target: {fileID: 341192741}
+=======
+  followTarget: {fileID: 341192736}
+  levelLoaded: 0
+  moveSpeed: 50
+>>>>>>> 3600e8287565666346a70cf5e6b1c9b4af1dd9f2
 --- !u!1 &1109132155
 GameObject:
   m_ObjectHideFlags: 0

@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
      <Compile Include="Assets\Scripts\AdagaController.cs" />
      <Compile Include="Assets\Scripts\BackToGame.cs" />
      <Compile Include="Assets\Scripts\Climbing.cs" />
@@ -67,6 +68,31 @@
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\SmoothCameraFollow.cs" />
      <Compile Include="Assets\Scripts\TrapsScript.cs" />
+=======
+     <Compile Include="Assets\Scripts\Being Used\AdagaController.cs" />
+     <Compile Include="Assets\Scripts\Being Used\BackToGame.cs" />
+     <Compile Include="Assets\Scripts\Being Used\CameraController.cs" />
+     <Compile Include="Assets\Scripts\Being Used\Climbing.cs" />
+     <Compile Include="Assets\Scripts\Being Used\EnemiesOnPlatforms.cs" />
+     <Compile Include="Assets\Scripts\Being Used\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Being Used\EnemyAdagacontroller.cs" />
+     <Compile Include="Assets\Scripts\Being Used\EnemyTwo.cs" />
+     <Compile Include="Assets\Scripts\Being Used\HealthUI.cs" />
+     <Compile Include="Assets\Scripts\Being Used\MovingBlock.cs" />
+     <Compile Include="Assets\Scripts\Being Used\Obstacles.cs" />
+     <Compile Include="Assets\Scripts\Being Used\ParticleScript.cs" />
+     <Compile Include="Assets\Scripts\Being Used\Platformmovement.cs" />
+     <Compile Include="Assets\Scripts\Being Used\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Being Used\TrapsScript.cs" />
+     <Compile Include="Assets\Scripts\Out Of Date\SmoothCameraFollow.cs" />
+     <Compile Include="Assets\Scripts\Reference\AttackingTrigger.cs" />
+     <Compile Include="Assets\Scripts\Reference\EnemyAI.cs" />
+     <Compile Include="Assets\Scripts\Reference\EnemyAttacking.cs" />
+     <Compile Include="Assets\Scripts\Reference\EnemyAttackingTrigger.cs" />
+     <Compile Include="Assets\Scripts\Reference\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\Reference\PauseMenu.cs" />
+     <Compile Include="Assets\Scripts\Reference\PlayerAttacking.cs" />
+>>>>>>> 3600e8287565666346a70cf5e6b1c9b4af1dd9f2
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
