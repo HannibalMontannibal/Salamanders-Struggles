@@ -51,24 +51,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-     <Compile Include="Assets\Scripts\AdagaController.cs" />
-     <Compile Include="Assets\Scripts\BackToGame.cs" />
-     <Compile Include="Assets\Scripts\Climbing.cs" />
-     <Compile Include="Assets\Scripts\EnemiesOnPlatforms.cs" />
-     <Compile Include="Assets\Scripts\Enemy.cs" />
-     <Compile Include="Assets\Scripts\EnemyAdagacontroller.cs" />
-     <Compile Include="Assets\Scripts\EnemyTwo.cs" />
-     <Compile Include="Assets\Scripts\HealthUI.cs" />
-     <Compile Include="Assets\Scripts\MovingBlock.cs" />
-     <Compile Include="Assets\Scripts\Obstacles.cs" />
-     <Compile Include="Assets\Scripts\ParticleScript.cs" />
-     <Compile Include="Assets\Scripts\PauseMenu.cs" />
-     <Compile Include="Assets\Scripts\Platformmovement.cs" />
-     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\SmoothCameraFollow.cs" />
-     <Compile Include="Assets\Scripts\TrapsScript.cs" />
-=======
      <Compile Include="Assets\Scripts\Being Used\AdagaController.cs" />
      <Compile Include="Assets\Scripts\Being Used\BackToGame.cs" />
      <Compile Include="Assets\Scripts\Being Used\CameraController.cs" />
@@ -92,7 +74,6 @@
      <Compile Include="Assets\Scripts\Reference\MainMenu.cs" />
      <Compile Include="Assets\Scripts\Reference\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\Reference\PlayerAttacking.cs" />
->>>>>>> 3600e8287565666346a70cf5e6b1c9b4af1dd9f2
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
