@@ -27,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
     float groundRadius = 0.2f;
     //the jump force
     public float jumpForce = 700f;
+    public float climbingJumpForce = 700f;
     // what layer is considered ground
     public LayerMask whatIsGround;
     //the rigidbody
@@ -123,7 +124,6 @@ public class PlayerMovement : MonoBehaviour
             sprinting = false;
             topSpeed = normalSpeed;
         }
-
 
 
     }
@@ -287,14 +287,26 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-		//========================WallJump====================================
+      
 
 
-		//if (collision.gameObject.tag == "WallRight" && (Input.GetKeyDown ("space"))) {
-		//	rb.AddForce (Vector3.up * bounceAmount);
-		//	rb.AddForce (Vector3.left * leftbounceAmount);
+        //========================WallJump====================================
 
-		//}
+
+        //if (collision.gameObject.tag == "WallRight" && (Input.GetKeyDown ("space"))) {
+        //	rb.AddForce (Vector3.up * bounceAmount);
+        //	rb.AddForce (Vector3.left * leftbounceAmount);
+
+        //}
+
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.tag == "ClimbingWalls" && Input.GetKey(KeyCode.Space))
+        {
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(0,  climbingJumpForce));
+        }
 
     }
 
