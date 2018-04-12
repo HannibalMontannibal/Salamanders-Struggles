@@ -142,13 +142,13 @@ public class PlayerMovement : MonoBehaviour
             //jumpSound.Play();
         }
 
-        if (grounded && Input.GetKeyDown(KeyCode.W))
-        {   //Set isgrounded to false
+        //if (grounded && Input.GetKeyDown(KeyCode.W))
+        //{   //Set isgrounded to false
             //anim.SetBool("Ground", false);
             //and add jump force
-            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
+           // GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
             //jumpSound.Play();
-        }
+       // }
 
         
       
